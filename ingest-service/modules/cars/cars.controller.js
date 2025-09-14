@@ -6,7 +6,6 @@ const fetchCars = async () => {
     return response.data;
   } catch (error) {
     console.error("Error fetching cars:", error);
-    return [];
   }
 };
 
