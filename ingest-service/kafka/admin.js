@@ -7,7 +7,6 @@ exports.createTopics = async () => {
   console.log("Kafka Admin Connected".blue);
 
   try {
-    // Fetch the list of existing topics
     const existingTopics = await admin.listTopics();
 
     const topicsToCreate = [
